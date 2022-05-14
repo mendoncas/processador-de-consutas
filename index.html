@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processador de consultas</title>
+</head>
+<script src="operator.js">
+</script>
+<script src="main.js">
+</script>
+<style>
+    html {
+        display: flex;
+        justify-content: center;
+        font-family: sans-serif;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+    input {
+        padding: 6px;
+        border-radius: 4px;
+        outline: none;
+        background: rgb(230, 230, 230);
+        border: none;
+        margin-bottom: 12px;
+    }
+
+</style>
+<body>
+    <h1>Processador de consultas</h1>
+        <input type="text" name="command" id="command">
+        <button onclick="onSubmit()">Enviar</button>
+</body>
+</html>
